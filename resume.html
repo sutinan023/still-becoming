@@ -29,6 +29,13 @@ button{font:inherit;cursor:pointer}.screen-tools{max-width:210mm;margin:18px aut
 .projects{gap:14px}.project{min-height:153px;padding:15px 12px 13px 0;grid-template-columns:28px 1fr;gap:11px}.project h3{font-size:13.5px;margin-bottom:9px}.project p{font-size:11px;line-height:1.65;margin-bottom:9px}.proj-label{font-size:9.5px}.techline{font-size:10px}.number{height:30px;font-size:11px}
 .side{padding-left:15px}.skills{gap:16px}.skill{padding-bottom:14px}.skill h3{font-size:11px;margin-bottom:8px}.skill p{font-size:11.5px;line-height:1.85}
 .edu{margin-top:25px;padding-top:18px;gap:15px}.edu h2{font-size:16px}.eduitem{padding-left:13px}.eduitem strong{font-size:11.8px}.eduitem p{font-size:10.7px;line-height:1.7}
+/* Timeline spacing refinement: tighter, balanced vertical rhythm. */
+.time-point{min-height:94px}
+.time-axis{margin-top:34px}
+.time-label{top:-28px}
+.time-sub{margin-top:5px;line-height:1.48}
+.section:has(.timeline) + .section{margin-top:15px}
+@media print{.time-point{min-height:94px}.section:has(.timeline) + .section{margin-top:15px}}
 </style></head><body>
 <div class="screen-tools"><div><strong>Resume · สุธินันท์ ปาระพิมพ์</strong> <span style="color:#617386">| A4 2 หน้า · Canva-inspired HTML</span></div><button onclick="window.print()">พิมพ์ / บันทึก PDF</button></div>
 <article class="sheet" aria-label="Resume หน้า 1"><div class="inner">
